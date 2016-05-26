@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="./global.js" type="text/javascript" charset="utf-8" ></script>
+  <script src="./sorting/Mergsort.js" type="text/javascript" charset="utf-8" ></script>
+  <script src="./sorting/Quicksort.js" type="text/javascript" charset="utf-8" ></script>
+  <script src="./sorting/Selection_sort.js" type="text/javascript" charset="utf-8" ></script>
+  <script src="./sorting/Bubblesort.js" type="text/javascript" charset="utf-8" ></script>
+  <script src="./sorting/Insertion_sort.js" type="text/javascript" charset="utf-8" ></script>
+  <script src="./sorting/Heap_sort.js" type="text/javascript" charset="utf-8" ></script>
+
+
+  <script src="./sorting/Bucket_sort.js" type="text/javascript" charset="utf-8" ></script>
+
+  <script type="text/javascript" charset="utf-8">
+    var arr = ['M', 'E', 'R', 'G', 'E', 'S', 'O', 'R', 'T', 'E', 'X', 'A', 'M', 'P', 'L', 'E'];
+
+    console.log("\tinit data:" + arr);
+    console.log("\tmerge sort:" + merg_sort(clone(arr)));
+    console.log("\tquick sort:" + quick_sort(clone(arr)));
+    console.log("selection sort:" + selection_sort(clone(arr)));
+    console.log("insertion sort:" + insertion_sort(clone(arr)));
+    console.log("\tbubble sort:" + bubble_sort(clone(arr)));
+    console.log("\theap sort:" + heap_sort(clone(arr)));
+
+    var numarr = [31, 34, 54, 23, 53, 43, 75, 25, 88, 34, 35, 91, 11, 63, 36, 72, 16, 53];
+    console.log("init number data:" + numarr);
+    console.log("\tbucket sort:" + bucket_sort(clone(numarr));
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
